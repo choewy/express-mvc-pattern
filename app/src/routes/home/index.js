@@ -4,15 +4,15 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    return res.send("홈 페이지");
+    return res.render('home/index.ejs');
 });
 
 router.get('/login', (req, res) => {
-    return res.send("로그인 페이지");
+    return res.render("home/login.ejs");
 });
 
 router.get('/signup', (req, res) => {
-    return res.send("회원가입 페이지");
+    return res.render("home/signup.ejs");
 });
 
 module.exports = router;
