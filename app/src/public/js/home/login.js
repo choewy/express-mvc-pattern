@@ -18,6 +18,9 @@ function login() {
     })
         .then(res => res.json())
         .then(res => {
-            console.log(res);
-        });
+            const { success, message } = res;
+            if (success) return location.href = '/';
+            alert(message);
+        })
+        .catch(console.error);
 };
