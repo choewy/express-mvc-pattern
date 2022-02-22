@@ -13,7 +13,12 @@ const render = {
 };
 
 const process = {
-
+    login: (req, res) => {
+        console.log(req.body);
+    },
+    signup: (req, res) => {
+        console.log(req.body);
+    }
 };
 
 module.exports = { render, process };

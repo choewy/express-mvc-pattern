@@ -15,5 +15,13 @@ function signup() {
         passwd: passwd.value,
         confirmPasswd: confirmPasswd.value
     }
-    console.log(req);
+    fetch("/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(req)
+    })
+        .then(res => res.json())
+        .then(res => {
+            console.log(res);
+        });
 };
