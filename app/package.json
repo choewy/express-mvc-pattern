@@ -21,6 +21,6 @@
   "homepage": "https://choewy.tistory.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/choewy/express-mvc-lecture"
+    "url": "https://github.com/choewy/express-mvc-pattern"
   }
 }
