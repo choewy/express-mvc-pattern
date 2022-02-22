@@ -1,0 +1,26 @@
+{
+  "name": "express-mvc-pattern",
+  "version": "1.0.0",
+  "description": "express mvc pattern tutorial",
+  "main": "app.js",
+  "bin": {
+    "express-mvc-pattern": "www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "choewy",
+  "license": "MIT",
+  "homepage": "https://choewy.tistory.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/choewy/express-mvc-lecture"
+  }
+}
