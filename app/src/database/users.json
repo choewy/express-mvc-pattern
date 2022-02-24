@@ -1,17 +1,1 @@
-[
-    {
-        "id": "choewy",
-        "name": "최원영",
-        "passwd": "choewy123"
-    },
-    {
-        "id": "test",
-        "name": "테스트",
-        "passwd": "test123"
-    },
-    {
-        "id": "admin",
-        "name": "관리자",
-        "passwd": "admin123"
-    }
-]
+[{"id":"choewy","name":"최원영","passwd":"1234"}]

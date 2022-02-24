@@ -19,6 +19,15 @@ class User {
         }
         return { success: false, message: "존재하지 않는 아이디입니다." };
     };
+
+    async signup() {
+        const body = this.body;
+        try {
+            return await UserStorage.save(body);
+        } catch (err) {
+            return { success: false, message: err };
+        }
+    };
 };
 
 module.exports = User;
