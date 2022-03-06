@@ -1,4 +1,4 @@
-# MVC 패턴을 적용한 express 서버 구현
+# Node.js express MVC 패턴 서버 구현
 
 ## Tags
 - [v1.0.1-init](https://github.com/choewy/express-mvc-pattern/tree/v1.0.1-init) : 초기 설정
