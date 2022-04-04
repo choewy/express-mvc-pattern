@@ -4,6 +4,9 @@ const fileSystem = require('fs').promises;
 const filePath = './src/database/users.json';
 
 class UserStorage {
+    // 2022.04.04 - "private인데 왜 static으로 했지?"
+    // getUserInfo를 호출하는 메소드가 static이기 때문에
+    // static + private(hidden function)으로 작성하는게 맞음
     static #getUserInfo(data, id) {
         const users = JSON.parse(data);
         const userInfo = users.find(user => user.id === id);
